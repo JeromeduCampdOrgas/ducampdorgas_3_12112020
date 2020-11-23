@@ -397,17 +397,14 @@ footer i {
   top: 300px;
 }
 .load i:nth-child(1) {
-  border: 1px black solid;
   animation: Spinner1 1011ms ease-in-out 0s 1 normal none;
   animation-delay: 500ms;
 }
 .load i:nth-child(2) {
-  border: 1px black solid;
   animation: Spinner2 1090ms ease-in-out 0s 1 normal none;
   animation-delay: 1368ms;
 }
 .load i:nth-child(3) {
-  border: 1px black solid;
   animation: Spinner3 1275ms ease-in-out 0s 1 normal none;
   animation-delay: 2256ms;
 }
