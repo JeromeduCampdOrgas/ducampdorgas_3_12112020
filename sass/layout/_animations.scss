@@ -108,6 +108,20 @@
 }
 }
 /*loading spinner*/
+main {
+    opacity:1;
+    animation:opacityMain 3375ms ease-in;
+}
+@keyframes opacityMain{
+        from{
+            opacity:0.4;
+        }
+        to{
+            opacity:1;
+        }
+    }
+    
+
 .load{         
     opacity:0;
     position:fixed; 
@@ -146,7 +160,7 @@
 
 @keyframes loadSpinner{
 from{
-    opacity:1;    
+    opacity:2;    
     z-index:1;
     }
 to{
@@ -156,7 +170,7 @@ to{
 }
 @keyframes Spinner1{
 0%{
-    opacity:1; 
+    opacity:2; 
     transform:rotate(360deg);
     z-index:1;
 }
@@ -168,7 +182,7 @@ to{
 @keyframes Spinner2{
 0%{
     top:290px;
-    opacity:1;   
+    opacity:2;   
     transform:rotate(360deg)  ;
     z-index:1;
 }
@@ -181,7 +195,7 @@ to{
 @keyframes Spinner3{
 0%{ 
     top:262px;
-    opacity:1; 
+    opacity:2; 
     transform:rotate(360deg);
     z-index:1;
 }
