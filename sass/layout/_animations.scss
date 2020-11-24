@@ -15,6 +15,7 @@
         cursor:pointer;
         animation:testBtn  500ms linear;
         animation-fill-mode:forwards;
+        -webkit-transform:scale(1.08);
         transform:scale(1.08);
             }
     }
@@ -29,7 +30,17 @@
             box-shadow:7px 7px 7px #aaa;
         }
     }
+    @-webkit-keyframes testBtn{
+        from{
+            background:$btnHover;
+            box-shadow:5px 5px 5px #aaa;
 
+        }
+        to{
+            background:$btnHover;
+            box-shadow:7px 7px 7px #aaa;
+        }
+    }
 
 
     
@@ -52,6 +63,7 @@
     .check{
             width:25%;
         & > i{
+            -webkit-transform:rotate(360deg);
             transform:rotate(360deg);
         }
     }

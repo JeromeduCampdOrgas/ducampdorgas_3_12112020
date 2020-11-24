@@ -298,10 +298,21 @@ footer i {
   cursor: pointer;
   animation: testBtn 500ms linear;
   animation-fill-mode: forwards;
+  -webkit-transform: scale(1.08);
   transform: scale(1.08);
 }
 
 @keyframes testBtn {
+  from {
+    background: linear-gradient(to bottom, #fface8, #ae80e5);
+    box-shadow: 5px 5px 5px #aaa;
+  }
+  to {
+    background: linear-gradient(to bottom, #fface8, #ae80e5);
+    box-shadow: 7px 7px 7px #aaa;
+  }
+}
+@-webkit-keyframes testBtn {
   from {
     background: linear-gradient(to bottom, #fface8, #ae80e5);
     box-shadow: 5px 5px 5px #aaa;
@@ -330,6 +341,7 @@ footer i {
   width: 25%;
 }
 .carte:hover .check > i {
+  -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
 }
 
