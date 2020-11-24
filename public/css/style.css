@@ -263,7 +263,7 @@ footer i {
 .menu .choix .plat p {
   max-width: 80%;
 }
-.menu .choix .plat p:nth-child(2) {
+.menu .choix .plat p {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -325,7 +325,7 @@ footer i {
 }
 /*Case à cocher*/
 .check {
-  margin-right: -85px;
+  margin-right: -90px;
   max-width: 150px;
   right: 0;
   text-align: center;
@@ -337,8 +337,9 @@ footer i {
   transition: margin-right 500ms linear;
 }
 .check i {
-  width: 85px;
+  width: 90px;
   transition: transform 500ms;
+  transition-delay: 15ms;
 }
 
 .carte:hover .check {
@@ -346,7 +347,7 @@ footer i {
 }
 .carte:hover .check > i {
   -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
+  transform: rotate(-360deg);
 }
 
 /*remplissage du coeur*/
