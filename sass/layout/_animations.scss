@@ -78,10 +78,12 @@
 .menuHeart{
     & .far{
     opacity:1;
+    -webkit-transition: opacity 2000ms;
     transition:opacity 2000ms;
     }
     & .fas{
         opacity:0;
+        -webkit-transition: opacity 2000ms;
         transition:opacity 2000ms;
         }
     &:hover{

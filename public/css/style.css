@@ -352,10 +352,12 @@ footer i {
 /*remplissage du coeur*/
 .menuHeart .far {
   opacity: 1;
+  -webkit-transition: opacity 2000ms;
   transition: opacity 2000ms;
 }
 .menuHeart .fas {
   opacity: 0;
+  -webkit-transition: opacity 2000ms;
   transition: opacity 2000ms;
 }
 .menuHeart:hover .far {
