@@ -1,5 +1,5 @@
 @charset "UTF-8";
-h1, h2, h3, h5, h6 {
+h1, h3, h5, h6 {
   font-family: "Shrikhand";
   width: 100%;
 }
@@ -88,7 +88,7 @@ a {
 }
 
 .restau1 {
-  background-image: url("images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+  background-image: url("/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
   background-size: cover;
 }
 
