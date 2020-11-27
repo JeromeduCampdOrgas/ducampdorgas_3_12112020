@@ -12,6 +12,9 @@ footer{
 
     footer p{
         margin-left:25px;
+        & a{
+            color:$blanc;
+        }
     }
     footer i{
         width:20px;
