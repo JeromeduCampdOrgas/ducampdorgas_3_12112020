@@ -206,6 +206,8 @@ main {
                 top:50%;
                 color:map-get( $colors, $i);
                 animation: sablier $animDuree  ($delaiInitial / $nbElt) * ($i * 10) ease-out forwards,opacity $animDuree  ($delaiInitial / $nbElt) * ($i * 10) ease-in-out ;
+                -webkit-animation:sablier $animDuree  ($delaiInitial / $nbElt) * ($i * 10) ease-out forwards,opacity $animDuree  ($delaiInitial / $nbElt) * ($i * 10) ease-in-out ;
+                -moz-animation:sablier $animDuree  ($delaiInitial / $nbElt) * ($i * 10) ease-out forwards,opacity $animDuree  ($delaiInitial / $nbElt) * ($i * 10) ease-in-out ;
             }
 //opacity $animDuree ease-in-out,
         }   

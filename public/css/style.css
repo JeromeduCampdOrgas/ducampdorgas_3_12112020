@@ -461,18 +461,24 @@ main {
   top: 50%;
   color: #9356dc;
   animation: sablier 3000ms 666.6666666667ms ease-out forwards, opacity 3000ms 666.6666666667ms ease-in-out;
+  -webkit-animation: sablier 3000ms 666.6666666667ms ease-out forwards, opacity 3000ms 666.6666666667ms ease-in-out;
+  -moz-animation: sablier 3000ms 666.6666666667ms ease-out forwards, opacity 3000ms 666.6666666667ms ease-in-out;
 }
 .load .sablier--2 {
   opacity: 0;
   top: 50%;
   color: #ff79da;
   animation: sablier 3000ms 1333.3333333333ms ease-out forwards, opacity 3000ms 1333.3333333333ms ease-in-out;
+  -webkit-animation: sablier 3000ms 1333.3333333333ms ease-out forwards, opacity 3000ms 1333.3333333333ms ease-in-out;
+  -moz-animation: sablier 3000ms 1333.3333333333ms ease-out forwards, opacity 3000ms 1333.3333333333ms ease-in-out;
 }
 .load .sablier--3 {
   opacity: 0;
   top: 50%;
   color: #99e2d0;
   animation: sablier 3000ms 2000ms ease-out forwards, opacity 3000ms 2000ms ease-in-out;
+  -webkit-animation: sablier 3000ms 2000ms ease-out forwards, opacity 3000ms 2000ms ease-in-out;
+  -moz-animation: sablier 3000ms 2000ms ease-out forwards, opacity 3000ms 2000ms ease-in-out;
 }
 
 @keyframes loadSpinner {
@@ -532,7 +538,6 @@ main {
   }
   .fonctionnement h2 {
     width: 100%;
-    text-align: center;
     margin: 30px;
   }
 
@@ -549,7 +554,7 @@ main {
   }
   .restaurants h2 {
     width: 100%;
-    text-align: center;
+    margin: 30px;
   }
   .restaurants .restau {
     max-width: 22%;
