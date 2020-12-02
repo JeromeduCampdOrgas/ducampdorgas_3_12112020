@@ -159,9 +159,9 @@ $delaiInitial:200ms;
 $marginInitial:0;
 
 $colors: (
-  1: #9356dc,
-  2: #ff79da,
-  3:#99e2d0
+  1: $primaire,
+  2: $secondaire,
+  3:$tertiaire
 
 );
 main {
