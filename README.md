@@ -26,3 +26,11 @@ De retour à votre bureau, vous trouvez un post-it de Fanny.
 Vous trouvez les maquettes du site dans votre boîte mail, envoyées par Fanny.
 
 <img src = "images/15982605908418_Maquettes Ohmyfood.jpg">
+
+<h3>Commencer</h3>
+Cloner le projet et ouvrir le fichier index.html
+
+<h3>Visualiser<h3>
+<a href ="https://p3ohmyfood.netlify.app/">
+    <img src = "images/badge-success.svg">
+</a>
