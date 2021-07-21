@@ -24,3 +24,5 @@ Vous décidez alors, avec l’équipe, que le site contiendra 4 menus dans un pr
 De retour à votre bureau, vous trouvez un post-it de Fanny.
 
 Vous trouvez les maquettes du site dans votre boîte mail, envoyées par Fanny.
+
+<img src = "images/15982605908418_Maquettes Ohmyfood.jpg">
